@@ -3,8 +3,7 @@
 ### Internship Program – SQL Development & Database Operations  
 **Database:** PharmaPlus  
 **Focus:** Understanding procedural SQL and user-defined functions  
-**Date:** October 31 2025  
-**Trainee:** Diyan Zargar  
+**Date:** October 31 2025   
 
 ---
 
