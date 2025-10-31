@@ -1,0 +1,21 @@
+
+
+Difference between procedure and function? A procedure performs an action (like updating data), while a function must return a single value and is typically used in SELECT statements.
+
+What is IN/OUT parameter? IN parameters pass values into a procedure. OUT parameters are used by the procedure to pass values back out to the caller.
+
+Can functions return tables? Yes, in many SQL dialects (like T-SQL) these are called table-valued functions. In MySQL, however, functions can only return a single scalar value.
+
+What is RETURN used for? In a function, RETURN specifies the final value to be sent back. In a procedure, RETURN immediately stops execution, usually sending back an integer status code.
+
+How to call stored procedures? Using the CALL command, followed by the procedure's name and its parameters (e.g., CALL sp_OrdersByCustomer(1001);).
+
+What is the benefit of stored routines? They improve performance (less network traffic), are reusable (less duplicate code), and increase security (you can grant permissions on the procedure instead of the tables).
+
+Can procedures have loops? Yes, procedures can contain complex logic, including WHILE or LOOP structures and IF/ELSE conditions.
+
+Difference between scalar and table-valued functions? A scalar function returns a single value (e.g., a number or string). A table-valued function returns an entire result set (a table).
+
+What is a trigger? A trigger is a special type of procedure that runs automatically in response to a database event like an INSERT, UPDATE, or DELETE on a specific table.
+
+How to debug stored procedures? Common ways are to add temporary SELECT statements inside the procedure to check variable values, or to INSERT debug information into a temporary log table.
